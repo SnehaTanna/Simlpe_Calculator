@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #5c5470;
+}
+
+h1 {
+  justify-content: center;
+  color: white;
+}
+
+.calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.numbers {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.click {
+  background: transparent;
+  border: 1px solid white;
+  font-size: 2rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+  margin: 0.25rem;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.click:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.click:active {
+  color: black;
+  border: 1px solid black;
+}
+
+.user-input input {
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  background: transparent;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  color: white;
+}
+
+#backspace,
+#all-clear {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 2rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+  margin: 2rem 0.25rem 0.25rem 0.25rem;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+#backspace:hover,
+#all-clear:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#backspace:active,
+#all-clear:active {
+  color: black;
+  border: 1px solid black;
+}
